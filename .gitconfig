@@ -1,0 +1,21 @@
+[user]
+	email = samurosales@gmail.com
+	name = Samuel Rosales
+[core]
+	editor = code --wait
+[pull]
+	rebase = true
+[init]
+	defaultBranch = master
+[merge]
+	conflictStyle = diff3
+	tool = vscode
+[pager]
+	log = false
+	branch = false
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[rebase]
+	autoSquash = true
