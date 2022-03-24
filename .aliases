@@ -1,0 +1,6 @@
+# personal aliases
+alias drmis='docker rmi $(docker images -a -q)'
+alias v='vim'
+alias dls='docker ps'
+alias dlsa='docker ps -a'
+alias dlogs='dlsa; echo Press any key to continue...; read -k1 -s && docker logs $(docker ps -a -q | fzf)'
