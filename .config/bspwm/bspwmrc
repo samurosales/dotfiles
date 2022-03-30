@@ -1,5 +1,6 @@
 #!/bin/sh
 
+wmname LG3D
 #LAUNCHERS
 $HOME/.config/bspwm/autostart.sh
 #fix for moving spotify to specific workspace
